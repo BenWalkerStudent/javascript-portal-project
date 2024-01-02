@@ -23,6 +23,7 @@ let currentYear = new Date().getFullYear()
 
 let currentTime = new Date().getTime
 
+const titlesAndLinks = [['shopping list', 'https://shopping-list-website.glitch.me'], ['quiz project', 'https://benwalkerstudent.github.io/Quiz-app/'], ['youtube', 'https://youtube.com']]
 
 //change innerHTML
 
@@ -191,4 +192,15 @@ switch (currentMonth) {
         break;
 
 }
+
+//card work 
+let cardList = document.querySelector('.cards')
+let cards = []
+
+cards.map((cardList) => {
+
+    cardsList += `${card.title}`
+
+})
+
 
